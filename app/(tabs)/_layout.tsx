@@ -24,10 +24,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="ai-assessment"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'AI Assessment',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="brain.head.profile" color={color} />,
         }}
       />
     </Tabs>
